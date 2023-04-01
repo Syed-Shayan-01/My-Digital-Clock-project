@@ -20,8 +20,8 @@ function setTime(){
     }
 
     if (hours > 12){
-     hours = hours - 12;
-    }
+      hours = hours - 12;
+     }
 
      if (hours < 10){
         hours = "0" + hours;
